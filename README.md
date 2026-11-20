@@ -66,7 +66,7 @@ Se comprobó el funcionamiento mediante las pruebas automatizadas, el análisis 
 
 ## Aplicación publicada
 
-URL de Vercel: Pendiente de despliegue.
+URL de Vercel: https://pulso-abierto-react.vercel.app
 
 ## Verificación final
 
@@ -74,5 +74,6 @@ URL de Vercel: Pendiente de despliegue.
 - Build productivo: generado correctamente.
 - Lint: 0 advertencias y 0 errores.
 - Preview: comprobado.
-- Despliegue: pendiente.
+- Despliegue: realizado correctamente.
 - Fecha de verificación: 20/11/2026.
+
