@@ -1,0 +1,202 @@
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.encabezado {
+  background-color: #172b50;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.encabezado h1 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+  color: white;
+}
+
+.encabezado p {
+  margin: 10px 0;
+  color: #dbeafe;
+}
+
+.encabezado nav {
+  margin-top: 20px;
+}
+
+.encabezado a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.encabezado a:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+  width: min(100% - 30px, 1000px);
+  margin: 40px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.contenedor h2 {
+  color: #172b50;
+}
+
+.contenedor a {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.pie {
+  text-align: center;
+  padding: 20px;
+  color: #64748b;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #e6a23c;
+  outline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+  .encabezado {
+    padding: 24px 15px;
+  }
+
+  .contenedor {
+    margin: 20px auto;
+    padding: 18px;
+  }
+}
+
+
+.crypto-list {
+  margin-top: 35px;
+}
+
+.crypto-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.crypto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.crypto-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.crypto-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.crypto-image {
+  width: 45px;
+  height: 45px;
+}
+
+.crypto-info h3 {
+  margin: 0;
+}
+
+.crypto-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #172b50;
+}
+
+.positivo {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.negativo {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.crypto-list button {
+  background: #172b50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.crypto-list button:hover {
+  background: #294879;
+}
+
+.crypto-list form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.crypto-list form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.crypto-list input,
+.crypto-list select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.crypto-list form button {
+  align-self: flex-start;
+}
+
+.crypto-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.crypto-actions button {
+  margin: 0;
+}
+
+.crypto-actions a {
+  display: inline-block;
+}
